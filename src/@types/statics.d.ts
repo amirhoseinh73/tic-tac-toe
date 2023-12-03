@@ -1,0 +1,1 @@
+type Players = "X" | "O"

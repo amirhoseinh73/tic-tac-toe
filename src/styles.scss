@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+
+.layout-container nb-layout-footer nav {
+  justify-content: flex-end !important;
+  font-size: 0.9rem !important;
+
+  & span {
+    font-size: 90%;
+  }
+}

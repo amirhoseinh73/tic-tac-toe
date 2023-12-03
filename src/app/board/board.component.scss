@@ -1,0 +1,19 @@
+h1 {
+  margin-top: 0;
+}
+
+header,
+main {
+  flex: 0 0 50%;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 10rem);
+  grid-gap: 0;
+}
+
+app-square {
+  border: 1px solid gray;
+  height: 10rem;
+}
