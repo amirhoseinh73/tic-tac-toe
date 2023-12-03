@@ -2,7 +2,7 @@
 
 > Simple Tic Tac Toe game to get start with Angular
 
-> Link of Demo: [*Comming Soon*](#)
+> Link of Demo: [_Comming Soon_](#)
 
 ## Run
 
