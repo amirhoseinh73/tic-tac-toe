@@ -10,10 +10,17 @@ main {
 main {
   display: grid;
   grid-template-columns: repeat(3, 10rem);
-  grid-gap: 0;
+  grid-gap: 2px;
+
+  @media (width < 576px) {
+    grid-template-columns: repeat(3, 6rem);
+  }
 }
 
 app-square {
-  border: 1px solid gray;
   height: 10rem;
+
+  @media (width < 576px) {
+    height: 6rem;
+  }
 }

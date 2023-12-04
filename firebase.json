@@ -1,0 +1,23 @@
+{
+  "hosting": [
+    {
+      "public": "/",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    },
+    {
+      "target": "tic-tac-toe-angular",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}

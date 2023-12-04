@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "tic-tac-toe-f627a"
+  },
+  "targets": {
+    "tic-tac-toe-f627a": {
+      "hosting": {
+        "tic-tac-toe-angular": [
+          "tic-tac-toe-f627a"
+        ]
+      }
+    }
+  }
+}
